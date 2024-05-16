@@ -2,10 +2,10 @@
 #include "picture.hpp"
 int main()
 { initwindow(800,600);
- house(); // дом
- sun(); // солнце
- man(); // человек
- fence(); // забор
+ home(); // Г¤Г®Г¬
+ sun(); // Г±Г®Г«Г­Г¶ГҐ
+ man(); // Г·ГҐГ«Г®ГўГҐГЄ
+ fence(); // Г§Г ГЎГ®Г°
  getch();
  closegraph();
 }
