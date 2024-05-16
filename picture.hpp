@@ -1,4 +1,4 @@
-void house(); // 1 участник house.cpp
-void sun(); // 2 участник sun.cpp
-void man(); // 3 участник man.cpp
-void fence(); // 4 участник fence.cpp
+void house(); // 1 house.cpp
+void sun(); // 2 sun.cpp
+void man(); // 3 man.cpp
+void fence(); // 4 fence.cpp
