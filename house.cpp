@@ -1,6 +1,6 @@
 #include <graphics.h> 
  
-int main() { 
+void home(){
     int gd = DETECT, gm; 
     initgraph(&gd, &gm, ""); 
  
@@ -15,6 +15,4 @@ int main() {
  
     delay(5000); 
     closegraph(); 
-     
-      return 0; 
 }
