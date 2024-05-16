@@ -1,5 +1,5 @@
 #include <graphics.h>  
-#include <iostream>  
+#include <picture.hpp>
   
 int sunX = 80;  
 int sunY = 80;  
