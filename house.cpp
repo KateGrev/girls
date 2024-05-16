@@ -1,4 +1,5 @@
 #include <graphics.h> 
+#include <picture.hpp>
  
 void home(){
     int gd = DETECT, gm; 
