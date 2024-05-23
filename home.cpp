@@ -2,7 +2,7 @@
 #include <picture.hpp>
  
 void home(){
- 
+   setcolor(WHITE);
     rectangle(100, 300, 300, 450); 
  
     line(100, 300, 200, 200); 
