@@ -2,6 +2,8 @@
 #include <picture.hpp>
 void man(){ 
     //head
+    setcolor(WHITE);
+    setfillstyle(SOLID_FILL, WHITE);
     fillellipse(500, 380, 19, 20);
     putpixel(494, 375, BLACK);
     putpixel(506, 375, BLACK);
