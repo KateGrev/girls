@@ -2,8 +2,6 @@
 #include <picture.hpp>
  
 void home(){
-    int gd = DETECT, gm; 
-    initgraph(&gd, &gm, ""); 
  
     rectangle(100, 300, 300, 450); 
  
@@ -14,6 +12,4 @@ void home(){
  
     rectangle(220, 320, 280, 450); 
  
-    delay(5000); 
-    closegraph(); 
 }
