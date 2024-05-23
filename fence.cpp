@@ -1,16 +1,8 @@
 #include <graphics.h>
 #include <picture.hpp>
-
-void fence()
-{
-    int gd = DETECT, gm;
-    initgraph(&gd, &gm, "");
-
-    int x = 100, y = 200;
-
-    for (int i = 0; i < 10; ++i)
-    {
-        line(x, y, x, y - 100);
-        x += 50;
-    }
- }
+void fence(){ 
+    line(50, 300, 50, 500);
+    line(50, 300, 150, 300);
+    line(150, 300, 150, 500);
+    line(50, 500, 150, 500);
+}
